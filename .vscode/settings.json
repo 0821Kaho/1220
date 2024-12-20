@@ -1,0 +1,21 @@
+{
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.experimental.classRegex": [
+      "tw`([^`]*)", // twマークアップ対応
+      "tw=\"([^\"]*)", // tw="..." 対応
+      "tw={\"([^\"}]*)", // tw={"..."} 対応
+      "tw\\.\\w+`([^`]*)", // tw.xxx`...` 対応
+      "classnames\\(([^)]*)\\)" // classnamesライブラリ対応
+    ],
+    "tailwindCSS.includeLanguages": {
+      "typescript": "javascript",
+      "typescriptreact": "javascript",
+      "html": "html",
+      "css": "css"
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false
+  }  
